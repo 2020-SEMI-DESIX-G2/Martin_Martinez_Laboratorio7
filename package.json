@@ -1,0 +1,33 @@
+{
+  "name": "martin_martinez_laboratorio7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2020-SEMI-DESIX-G2/Martin_Martinez_Laboratorio7.git"
+  },
+  "keywords": [
+    "express",
+    "javascript",
+    "node",
+    "docker"
+  ],
+  "author": "Martin Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2020-SEMI-DESIX-G2/Martin_Martinez_Laboratorio7/issues"
+  },
+  "homepage": "https://github.com/2020-SEMI-DESIX-G2/Martin_Martinez_Laboratorio7#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4"
+  }
+}
